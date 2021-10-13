@@ -1,0 +1,35 @@
+
+body {
+  display: flex;
+  align-items: center;
+  background: rgb(68, 105, 247);
+  background: linear-gradient(
+    238deg,
+    rgba(68, 105, 247, 1) 0%,
+    rgba(246, 91, 245, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+#formDiv {
+    margin-top: 150px;
+    width: 100%;
+    height: 380px;
+    overflow-y: scroll;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    padding: 20px;
+    color: #ffff;
+}
+
+#formDiv span{
+    color: red;
+    margin-left: 6px;
+}
